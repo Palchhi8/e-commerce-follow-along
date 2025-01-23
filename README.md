@@ -29,3 +29,18 @@ This project will guide you through building a full-stack e-commerce web applica
 4. Design *MongoDB schemas* for structured data storage.
 
 This project will help you master the full-stack development process, from database to frontend, with a focus on scalability and user interaction.
+
+ ### Milestone 2 ###
+1. Created a structured folder hierarchy for the project.
+2. Set up a React app for the frontend.
+3. Set up a Node.js server for the backend.
+4. Configured Tailwind CSS for streamlined styling.
+5. Added optional extensions for improving development efficiency.
+6. Built a functional and styled Login Page for the frontend.
+
+### Milestone 3 ###
+
+1. Set up dedicated folders for organizing backend code effectively.
+2. Initialized and configured a Node.js server to handle API requests.
+3. Connected the application to MongoDB to store and manage data.
+4. Implemented basic error handling to ensure smooth server operation.
