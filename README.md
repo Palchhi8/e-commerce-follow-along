@@ -1,6 +1,5 @@
 # e-commerce-follow-along
 ### *Project Overview: E-Commerce Application (MERN Stack)*
-
 This project will guide you through building a full-stack e-commerce web application using the *MERN stack* (MongoDB, Express.js, React.js, Node.js). You will learn how to implement key functionalities such as *user authentication, **product management, and **order handling* while gaining hands-on experience with REST APIs, database schema design, and frontend development with React.
 
 ---
@@ -22,7 +21,7 @@ This project will guide you through building a full-stack e-commerce web applica
 
 ---
 
-### *Next Steps:*
+### *Next Steps:* 
 1. Set up the *development environment* and install dependencies.
 2. Implement a *basic server* using Node.js and Express.
 3. Start building the *React frontend* and connect it to the backend.
@@ -44,3 +43,24 @@ This project will help you master the full-stack development process, from datab
 2. Initialized and configured a Node.js server to handle API requests.
 3. Connected the application to MongoDB to store and manage data.
 4. Implemented basic error handling to ensure smooth server operation.
+
+### Milestone 4 ###
+
+This milestone focuses on implementing user data handling and file upload functionality. 
+
+Key achievements include:  
+1. User Model: Defined a blueprint for storing user data in the database, ensuring a consistent structure for user-related information.  
+2. User Controller: Developed logic to manage user operations such as adding new users and retrieving user information.  
+3. File Upload Setup: Integrated and configured Multer to enable file uploads (e.g., user profile images) and store them efficiently in the application.  
+
+By completing this milestone, the application now supports user management and file uploads, enhancing its core functionality.
+
+## MILESTONE 5 :-
+1. Created a Sign-Up Page in React.
+2. Implemented form validation for:
+    Name (required)
+    Email (valid format required)
+    Password (minimum 2 characters)
+    Password Confirmation (must match password)
+
+4. Used React Router for navigation.
