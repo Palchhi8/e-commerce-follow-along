@@ -87,3 +87,14 @@ Integrated an email notification system to send a welcome email to the user afte
 
 7. JWT Token Generation:
 Added a method to generate JWT tokens upon user login (for future use in authentication routes).
+
+
+### Milestone 7: Create Login Endpoint
+Task Completed ✅
+Implemented a login API endpoint.
+Accepted user credentials (email/username and password).
+Retrieved the corresponding user from the database.
+Validated the password using bcrypt.
+Compared the entered password with the stored hashed password for authentication.
+Generated a JWT token upon successful login for authentication.
+Implemented error handling for invalid credentials and server errors.
