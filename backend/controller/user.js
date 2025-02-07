@@ -23,7 +23,7 @@ router.post(
 
             // If file is uploaded, get the filename and construct the file URL
             const filename = req.file ? req.file.filename : null;
-            const fileUrl = filename ? path.join("uploads", filename) : null; // Assuming 'uploads' is the folder where files are stored
+            const fileUrl = filename ? path.join("../uploads", filename) : null; // Assuming 'uploads' is the folder where files are stored
 
             // Hash the password before saving it
             const hashedPassword = await bcrypt.hash(password, 10);  // 10 is the number of salt rounds

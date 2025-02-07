@@ -53,7 +53,7 @@ const CreateProduct = () => {
 
     try {
         const response = await axios.post(
-        "http://localhost:5000/api/v2/product/create-product",
+        "http://localhost:5050/api/v2/product/create-product",
         formData,
          {
              headers: {
@@ -343,3 +343,4 @@ Create
 
 };
 export default CreateProduct;
+

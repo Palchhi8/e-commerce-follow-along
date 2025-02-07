@@ -13,7 +13,7 @@ export default function Product({ name, price, images, description }) {
     <div className="bg-neutral-200 p-4 rounded-lg shadow-md flex flex-col justify-between">
       <div className="w-full">
         <img
-          src={`http://localhost:5000${currentImage}`}
+          src={`http://localhost:5050${currentImage}`}
           alt={name}
           className="w-full h-56 object-cover rounded-lg mb-2"
         />
@@ -30,4 +30,5 @@ export default function Product({ name, price, images, description }) {
    
   );
 }
+
 
