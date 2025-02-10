@@ -287,3 +287,21 @@ By the end of this milestone, you will:
 - Enhance the UI with better styling and user experience.
 - Implement pagination if needed for better performance.
 - Add authentication checks to ensure only the logged-in user's products are displayed.
+
+# Milestone 13 - Edit and Update Products in MongoDB
+
+## 🌟 Overview
+In this milestone, we have implemented the functionality to **edit** the uploaded products. Users can now modify existing product details and save the updates in the MongoDB database.
+
+## 🎯 Learning Goals
+By completing this milestone, we have learned:
+- How to write an **endpoint** that updates existing data in MongoDB.
+- How to **auto-fill a form** with previous data and allow users to edit it.
+- How to handle update operations effectively in a **full-stack** application.
+
+---
+
+# Milestone 14 - Delete Products in MongoDB
+
+## 🌟 Overview
+In this milestone, we have implemented the functionality to **delete
