@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
+import axios from "axios";
 
 function Product({ _id, name, images, description, price }) {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -17,6 +18,23 @@ function Product({ _id, name, images, description, price }) {
 
   const handleEdit = () => {
     navigate(`/create-product/${_id}`);
+  };
+
+  const handleDelete = async () => {
+    try{
+      const response = await axios.delete(
+            `http://localhost:5050/api/v2/product/delete-product/${_id}`
+      );
+      if(response.status === 200){
+        alert("Product deleted successfully!");
+        window.location.reload();
+      }
+    }
+      catch (err){
+        console.error("Error deleting product:" , err);
+        alert("Failed to delete product.");
+      
+    }
   };
 
   return (
@@ -38,6 +56,12 @@ function Product({ _id, name, images, description, price }) {
           className="w-full text-white px-4 py-2 rounded-md bg-neutral-900 hover:bg-neutral-700 transition duration-300"
           onClick={handleEdit}
         >
+          <button
+          onClick={handleDelete}
+          className="w-full text-white px-4 py-2 rounded-md bg-red-600 hover:bg-red-400 transition duration-0"
+          >
+            Delete
+          </button>
           Edit
         </button>
       </div>
