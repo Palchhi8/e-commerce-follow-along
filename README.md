@@ -362,3 +362,35 @@ The cart page allows users to view their selected products and modify quantities
  ## Profile Page
 
 The profile page allows users to view and manage their personal information. The backend provides a `GET /profile` endpoint to fetch user data, including profile photo, name, email, and address. The frontend displays the profile information in two sections: one for personal details (photo, name, email) and another for the address. If an address is available, it is shown; otherwise, the message "No address found" appears. An "Add Address" button is included for users to add their address. This feature helps users view and edit their profile in a simple, user-friendly interface.
+
+### Milestone 21 - Address Form Implementation
+### 🌟 Overview
+Implemented an Address Form page to collect and store user address details.
+
+### 🎯 Learning Goals
+Create a frontend form to take user address details.
+Capture country, city, address1, address2, zip code, and address type.
+### Steps 📝
+Created an address form page.
+Managed input data using state.
+Navigated to the form when clicking "Add Address" in the profile.
+This milestone helps in understanding how to build and manage an address form.
+
+
+
+### Milestone 22 - Backend Endpoint for Storing User Address
+👋 Hey Kalvians! 🌟
+
+In this milestone, we created a backend endpoint to store user addresses in their profile.
+
+🎯 Learning Goals
+Build an API endpoint for address storage.
+Receive and process address data from the frontend.
+Update the user collection by adding the address.
+📝 Steps Implemented
+✅ Created API Endpoint – Handled address submission.
+✅ Processed Data – Extracted address details.
+✅ Updated Database – Stored address in the user profile.
+✅ Tested Endpoint – Verified with Postman/Bruno.
+
+This milestone enhances backend API development skills. 🚀
