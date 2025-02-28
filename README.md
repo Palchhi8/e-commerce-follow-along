@@ -394,3 +394,39 @@ Update the user collection by adding the address.
 ✅ Tested Endpoint – Verified with Postman/Bruno.
 
 This milestone enhances backend API development skills. 🚀
+
+### Milestone 23 - Place Order & Select Address Page
+
+### 🌟 Overview
+
+In this milestone, we will implement the “Place Order” feature, allowing users to select a delivery address and finalize their order.
+
+### 🎯 Learning Goals
+	•	Add a “Place Order” button to the cart.
+	•	Create a “Select Address” page to choose a delivery address.
+	•	Write a Mongoose schema to store order details.
+
+### Steps 📝
+	1.	Place Order Button:
+	•	Add a “Place Order” button to the cart page.
+	•	Navigate to the “Select Address” page on click.
+	2.	Create Select Address Page:
+	•	Display all user addresses on this page.
+	•	Allow users to select one as the delivery address.
+	3.	Backend Endpoint:
+	•	Write an endpoint to fetch all user addresses.
+	4.	Mongoose Schema:
+	•	Define a schema to store order details, including the selected address and product items.
+
+## Next Steps (Milestone 24 - Order Confirmation Page)
+
+Display all ordered products.
+
+Show the selected delivery address.
+
+Display the total cart value.
+
+Include a "Confirm Order" button at the bottom.
+
+This milestone will help you understand how to implement the "Place Order" functionality effectively.
+
