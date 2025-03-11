@@ -451,3 +451,12 @@ This milestone will help you understand how to implement the "Place Order" funct
 ✅ Enhances understanding of MongoDB data handling and endpoint creation.  
 
 ---
+# Milestone 26 📝
+
+### Steps to Fetch User Orders
+1. Create an endpoint to receive the **user's email**.
+2. Retrieve the **user's _id** using the provided email.
+3. Fetch all orders linked to that **_id**.
+4. Respond with the user's order details.
+
+This endpoint will help you retrieve all orders for a specific user.
