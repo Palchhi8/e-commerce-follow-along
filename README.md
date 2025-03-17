@@ -470,3 +470,14 @@ Create a My Orders page in the frontend.
 Send a GET request to the /my-orders endpoint (pass user email).
 Display the retrieved orders in a user-friendly format.
 Add a My Orders link to the navbar for easy access.
+
+
+ ### Milestone 28: Cancel Order Feature ###
+📌 Overview
+In this milestone, we will add a Cancel Order button and create a backend endpoint to handle order cancellations.
+
+🛠️ Steps
+Add a Cancel Order button for each order in the My Orders page.
+Hide the button if the order is already canceled.
+Create a backend endpoint to receive the orderId.
+Fetch the order, update its status to "canceled", and save it.
