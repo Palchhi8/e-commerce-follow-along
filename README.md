@@ -460,3 +460,13 @@ This milestone will help you understand how to implement the "Place Order" funct
 4. Respond with the user's order details.
 
 This endpoint will help you retrieve all orders for a specific user.
+
+### Milestone 27: My Orders Page ###
+📌 Overview
+In this milestone, we will create a My Orders page to display all user orders.
+
+🛠️ Steps
+Create a My Orders page in the frontend.
+Send a GET request to the /my-orders endpoint (pass user email).
+Display the retrieved orders in a user-friendly format.
+Add a My Orders link to the navbar for easy access.
