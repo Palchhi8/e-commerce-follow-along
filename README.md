@@ -533,4 +533,33 @@ Online Payment (PayPal)
 
 Show PayPal buttons only when Online Payment is selected.
 
-Milestone 30: Implement PayPal Payment
+Milestone 30: Implement PayPal Payment []
+
+### Milestone - 31 ###
+
+React Redux Global State Setup
+📌 Introduction
+Sets up a global state using Redux Toolkit to manage the user's email across the application.
+
+🚀 Installation
+Install react-redux and @reduxjs/toolkit before using the store.
+
+📂 Folder Structure
+store/
+
+store.js – Configures Redux store and user reducer.
+
+userActions.js – Defines an action to update the email state.
+
+index.js
+
+Wraps the App component inside the Redux Provider to enable global state management.
+
+⚙️ Setup Overview
+The Redux store is configured with an initial state for storing the user's email.
+
+The reducer function handles updating the email state.
+
+The action function dispatches changes to the email state.
+
+The Provider component ensures that Redux is accessible across the app.
