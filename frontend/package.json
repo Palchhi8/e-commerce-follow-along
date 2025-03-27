@@ -13,6 +13,7 @@
     "@paypal/react-paypal-js": "^8.8.2",
     "@reduxjs/toolkit": "^2.6.1",
     "axios": "^1.7.9",
+    "cors": "^2.8.5",
     "country-state-city": "^3.2.1",
     "dotenv": "^16.4.7",
     "install": "^0.13.0",

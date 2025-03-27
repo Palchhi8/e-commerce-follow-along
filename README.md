@@ -563,3 +563,25 @@ The reducer function handles updating the email state.
 The action function dispatches changes to the email state.
 
 The Provider component ensures that Redux is accessible across the app.
+
+## Milestone-32 ##
+
+# Milestone 32 - Global State Management with Redux
+
+## Hey Kalvians! 👋
+
+## 🎯 Learning Goals
+By the end of this milestone, you will:
+- Understand how to use **Redux** for **global state management**.
+- Learn to **store the mail in the global state** using the `dispatch` method.
+- Access the stored mail across all pages using `useSelector`.
+
+### ⿡ Store Mail in Global State (Login Page)
+- Use the `dispatch` method in the **Login page** to store the user's email in the global state.
+
+### ⿢ Access Mail in Other Pages
+- Use `useSelector` in all remaining pages to **retrieve the email** stored in the global state.
+
+This lesson will help you **understand Redux** and how to efficiently **manage global state** in your application. 🚀
+
+---
